@@ -17,7 +17,8 @@
 
 #import "GlobalConfig.h"
 
-
+/*
 @implementation GlobalConfig
 
 @end
+*/

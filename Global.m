@@ -26,13 +26,10 @@
 +(BOOL)isIPAD{
 	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
 		return TRUE;
-		
 	} else {
 		return FALSE;
 	}
-
 	return FALSE;
-
 }
 
 + (BOOL) validateEmail: (NSString *) candidate {

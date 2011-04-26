@@ -17,14 +17,6 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol GlobalConfigDelegate;
-
-@interface GlobalConfig : NSObject {
-
-}
-@end
-
-
 @protocol GlobalConfigDelegate <NSObject>
 //@optional
 + (BOOL)isEntwicklung;

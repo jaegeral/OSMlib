@@ -19,7 +19,6 @@
 #import "OSM_utilMD5.h"
 #import "OSM_Reachability.h"
 
-
 //DLOG based on three20 Framework see three20.info
 #ifdef DEBUG
 #    define DLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
@@ -27,6 +26,7 @@
 #    define DLog(...) /* */
 #endif
 #define ALog(...) NSLog(__VA_ARGS__)
+
 
 @interface Global : NSObject {
 }
