@@ -23,7 +23,6 @@
 
 @interface OSM_ScrollViewController : UIViewController{
 	UIScrollView *scrollView;
-	UIActivityIndicatorView *spinner;
 	float xOffset;
 	CGRect ButtonRect;
 	OSM_LoadingView *loadingView;

@@ -29,11 +29,7 @@
 		scrollView.backgroundColor = [UIColor whiteColor];
 		[scrollView setContentSize:(CGSizeMake(320, 800))];
 		[scrollView setFrame:CGRectMake(0, 0, 320, 420)];
-		spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
-		[spinner setCenter:CGPointMake(160.0, 230.0)]; // I do this because I'm in landscape mode
-		[scrollView addSubview:spinner];
-		[spinner hidesWhenStopped];
-		[spinner startAnimating];
+	
 		
 		
 		loadingView=[[OSM_LoadingView alloc]init];
@@ -52,7 +48,8 @@
 	#pragma mark Abschluss	
 	float gesamtHoehe2 = xOffset + 50.0;	
 	[self.view addSubview:loadingView];
-	[spinner stopAnimating];
+	[loadingView setHidden:TRUE];
+	
 		//[UIColor colorWithWhite:0.873 alpha:1.000];
 	[scrollView setContentSize:(CGSizeMake(320, gesamtHoehe2))];
 	[scrollView setFrame:CGRectMake(0, 0, 320, 420)];
@@ -69,8 +66,6 @@
 	[scrollView setContentSize:(CGSizeMake(320, 420))];
 	[scrollView setFrame:CGRectMake(0, 0, 320, 420)];
 	self.view = scrollView;
-	[scrollView addSubview:spinner];
-	[spinner startAnimating];
 	[scrollView addSubview:loadingView];
 	[scrollView setShowsVerticalScrollIndicator:TRUE];
 
