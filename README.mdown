@@ -27,12 +27,12 @@ Place the OSMlib in a permanent folder, so XCode can reference the files every t
 More
 ====
 
-[aycs.de[]]
+[aycs.de][]
 or
-[alexanderjaeger.de[]]
+[alexanderjaeger.de][]
 
 Apps with OSMlib
 ================
 
-[KidsBox]: http://itunes.apple.com/de/app/kidsbox/id372182265?mt=8
+[http://itunes.apple.com/de/app/kidsbox/id372182265?mt=8][]
 [GutscheinRegister]: http://itunes.apple.com/de/app/gutscheine-gutscheinregister/id422260104?mt=8&ls=1
