@@ -1,0 +1,38 @@
+OSMlib
+======
+
+OSMlib is a collection of iOS Classes.
+
+Support:
+========
+
+If you would like to ask any questions, feel free to mail at a.jaeger@aycs.de.
+
+Adding OSMlib to your project
+=============================
+
+OSMlib is a compiled static lib.
+
+1. Clone OSMlib repository: `git clone git://github.com/deralexxx/OSMlib.git`
+Place the OSMlib in a permanent folder, so XCode can reference the files every time.
+
+2. Change to the OSMlib.xcodeproj file in OSMlib folder. Drag the file to your project-root. Uncheck the "Copy items" and add it "Relative to Project"
+
+3. Drag the OSMlib.a file to the "Link binary with library" folder under your projects Targets
+
+4. Tell your project using the OSMlib header files: Open the "project setting" Build tab and search the "User Header Search Paths" and insert: "../OSMLib" or your specified OSMlib folder. Make sure "Recursive" is checked.
+
+5. Finally build your project with OSMlib
+
+More
+====
+
+[aycs.de[]]
+or
+[alexanderjaeger.de[]]
+
+Apps with OSMlib
+================
+
+[KidsBox]: http://itunes.apple.com/de/app/kidsbox/id372182265?mt=8
+[GutscheinRegister]: http://itunes.apple.com/de/app/gutscheine-gutscheinregister/id422260104?mt=8&ls=1
