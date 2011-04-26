@@ -38,7 +38,8 @@
  */
 
 + (void) callPhoneNumber:(NSString*)PhoneNumber{
-	NSLog(@"Call Number: %@",PhoneNumber);
+	DLog(@"Call Number: %@",PhoneNumber);
+
 	NSString *callPhoneNumber = [[NSString alloc] initWithFormat:@"tel://%@",PhoneNumber];
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:callPhoneNumber]];
 	[callPhoneNumber release];
@@ -53,7 +54,7 @@
  */
 
 + (void)openWebPage:(NSString*)webPage{
-	NSLog(@"open Webpage: %@",webPage);
+	DLog(@"open Webpage: %@",webPage);
 	NSString *openWebPage = [[NSString alloc] initWithFormat:@"%@",webPage];
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:openWebPage]];
 	[openWebPage release];
@@ -68,13 +69,12 @@
 
 + (void) sendEmail:(NSString*)receiver {
 	if(receiver!=nil){
-		NSLog(@"Send email an %@",receiver);
+		DLog(@"Send email an %@",receiver);
 		NSString *mailToString = [[NSString alloc] initWithFormat:@"mailto://%@",receiver];
-		NSLog(@"Mail to String %@",mailToString);
 		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:mailToString]];
 		[mailToString release];
 	}else
-		NSLog(@"nil bei sendEmail ");
+		ALog(@"nil in sendEmail");
 }
 
 @end

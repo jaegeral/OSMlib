@@ -35,7 +35,7 @@ static NSString *hostname = @"aycs.de";
 
 +(BOOL)checkInternet{
 	//Test for Internet Connection
-	NSLog(@"Testing Internet Connectivity");
+	DLog(@"Testing Internet Connectivity");
 	Reachability *r = [Reachability reachabilityWithHostName:hostname];
 	NetworkStatus internetStatus = [r currentReachabilityStatus];
 	BOOL internet;
