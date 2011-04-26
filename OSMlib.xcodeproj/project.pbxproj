@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F21A8F7135590E8008D1C80 /* OSM_LoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F21A8F5135590E8008D1C80 /* OSM_LoadingView.h */; };
+		0F21A8F8135590E8008D1C80 /* OSM_LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A8F6135590E8008D1C80 /* OSM_LoadingView.m */; };
+		0F21A90C13559244008D1C80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F21A90B13559244008D1C80 /* UIKit.framework */; };
+		0F37FC9F131CEC6A009A3CBD /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F37FC9D131CEC6A009A3CBD /* Global.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F37FCA0131CEC6A009A3CBD /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F37FC9E131CEC6A009A3CBD /* Global.m */; };
+		0F37FCA3131CECAF009A3CBD /* OSM_Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F37FCA1131CECAF009A3CBD /* OSM_Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F37FCA4131CECAF009A3CBD /* OSM_Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F37FCA2131CECAF009A3CBD /* OSM_Reachability.m */; };
+		0F37FCA7131CECBB009A3CBD /* OSM_utilMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F37FCA5131CECBB009A3CBD /* OSM_utilMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F37FCA8131CECBB009A3CBD /* OSM_utilMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F37FCA6131CECBB009A3CBD /* OSM_utilMD5.m */; };
+		0F37FCB0131CED57009A3CBD /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F37FCAE131CED57009A3CBD /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F37FCB1131CED57009A3CBD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F37FCAF131CED57009A3CBD /* Reachability.m */; };
+		0F37FE2D131D0059009A3CBD /* GlobalConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F37FE2B131D0059009A3CBD /* GlobalConfig.h */; };
+		0F37FE2E131D0059009A3CBD /* GlobalConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F37FE2C131D0059009A3CBD /* GlobalConfig.m */; };
+		0F834078131FE3840062FB59 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F834077131FE3840062FB59 /* CoreFoundation.framework */; };
+		0F83407C131FE3950062FB59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F83407B131FE3950062FB59 /* Foundation.framework */; };
+		0F834080131FE39D0062FB59 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F83407F131FE39D0062FB59 /* SystemConfiguration.framework */; };
+		0FB522D4134DA8590009B27F /* OSM_ScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB522D2134DA8590009B27F /* OSM_ScrollViewController.h */; };
+		0FB522D5134DA8590009B27F /* OSM_ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB522D3134DA8590009B27F /* OSM_ScrollViewController.m */; };
+		0FC1770F131D426000A79305 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC17702131D426000A79305 /* JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FC17710131D426000A79305 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC17703131D426000A79305 /* NSObject+SBJSON.h */; };
+		0FC17711131D426000A79305 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC17704131D426000A79305 /* NSObject+SBJSON.m */; };
+		0FC17712131D426000A79305 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC17705131D426000A79305 /* NSString+SBJSON.h */; };
+		0FC17713131D426000A79305 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC17706131D426000A79305 /* NSString+SBJSON.m */; };
+		0FC17714131D426000A79305 /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC17707131D426000A79305 /* SBJSON.h */; };
+		0FC17715131D426000A79305 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC17708131D426000A79305 /* SBJSON.m */; };
+		0FC17716131D426000A79305 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC17709131D426000A79305 /* SBJsonBase.h */; };
+		0FC17717131D426000A79305 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC1770A131D426000A79305 /* SBJsonBase.m */; };
+		0FC17718131D426000A79305 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC1770B131D426000A79305 /* SBJsonParser.h */; };
+		0FC17719131D426000A79305 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC1770C131D426000A79305 /* SBJsonParser.m */; };
+		0FC1771A131D426000A79305 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC1770D131D426000A79305 /* SBJsonWriter.h */; };
+		0FC1771B131D426000A79305 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC1770E131D426000A79305 /* SBJsonWriter.m */; };
+		0FC1773A131D42C100A79305 /* OSM_utilURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC17738131D42C100A79305 /* OSM_utilURL.h */; };
+		0FC1773B131D42C100A79305 /* OSM_utilURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC17739131D42C100A79305 /* OSM_utilURL.m */; };
+		AA747D9F0F9514B9006C5449 /* OSMlib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* OSMlib_Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F21A8F5135590E8008D1C80 /* OSM_LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSM_LoadingView.h; sourceTree = "<group>"; };
+		0F21A8F6135590E8008D1C80 /* OSM_LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSM_LoadingView.m; sourceTree = "<group>"; };
+		0F21A90B13559244008D1C80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F37FC9D131CEC6A009A3CBD /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		0F37FC9E131CEC6A009A3CBD /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		0F37FCA1131CECAF009A3CBD /* OSM_Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSM_Reachability.h; sourceTree = "<group>"; };
+		0F37FCA2131CECAF009A3CBD /* OSM_Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSM_Reachability.m; sourceTree = "<group>"; };
+		0F37FCA5131CECBB009A3CBD /* OSM_utilMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSM_utilMD5.h; sourceTree = "<group>"; };
+		0F37FCA6131CECBB009A3CBD /* OSM_utilMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSM_utilMD5.m; sourceTree = "<group>"; };
+		0F37FCAE131CED57009A3CBD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0F37FCAF131CED57009A3CBD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0F37FE2B131D0059009A3CBD /* GlobalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.h; sourceTree = "<group>"; };
+		0F37FE2C131D0059009A3CBD /* GlobalConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConfig.m; sourceTree = "<group>"; };
+		0F834077131FE3840062FB59 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0F83407B131FE3950062FB59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F83407F131FE39D0062FB59 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0FB522D2134DA8590009B27F /* OSM_ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSM_ScrollViewController.h; sourceTree = "<group>"; };
+		0FB522D3134DA8590009B27F /* OSM_ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSM_ScrollViewController.m; sourceTree = "<group>"; };
+		0FC17702131D426000A79305 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		0FC17703131D426000A79305 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		0FC17704131D426000A79305 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		0FC17705131D426000A79305 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		0FC17706131D426000A79305 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		0FC17707131D426000A79305 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		0FC17708131D426000A79305 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		0FC17709131D426000A79305 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		0FC1770A131D426000A79305 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		0FC1770B131D426000A79305 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		0FC1770C131D426000A79305 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		0FC1770D131D426000A79305 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		0FC1770E131D426000A79305 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		0FC17738131D42C100A79305 /* OSM_utilURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSM_utilURL.h; sourceTree = "<group>"; };
+		0FC17739131D42C100A79305 /* OSM_utilURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSM_utilURL.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* OSMlib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSMlib_Prefix.pch; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libOSMlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOSMlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F834078131FE3840062FB59 /* CoreFoundation.framework in Frameworks */,
+				0F83407C131FE3950062FB59 /* Foundation.framework in Frameworks */,
+				0F834080131FE39D0062FB59 /* SystemConfiguration.framework in Frameworks */,
+				0F21A90C13559244008D1C80 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libOSMlib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* aycsLib */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				0F834077131FE3840062FB59 /* CoreFoundation.framework */,
+				0F83407B131FE3950062FB59 /* Foundation.framework */,
+				0F83407F131FE39D0062FB59 /* SystemConfiguration.framework */,
+				0F21A90B13559244008D1C80 /* UIKit.framework */,
+			);
+			name = aycsLib;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F12AE4F13646B4700A82CEE /* UI */,
+				0F12AE4E13646B4200A82CEE /* Util */,
+				0FC1774E131D435800A79305 /* extern */,
+				0F37FC9D131CEC6A009A3CBD /* Global.h */,
+				0F37FC9E131CEC6A009A3CBD /* Global.m */,
+				0F37FE2B131D0059009A3CBD /* GlobalConfig.h */,
+				0F37FE2C131D0059009A3CBD /* GlobalConfig.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0F12AE4E13646B4200A82CEE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0FC17738131D42C100A79305 /* OSM_utilURL.h */,
+				0FC17739131D42C100A79305 /* OSM_utilURL.m */,
+				0F37FCA1131CECAF009A3CBD /* OSM_Reachability.h */,
+				0F37FCA2131CECAF009A3CBD /* OSM_Reachability.m */,
+				0F37FCA5131CECBB009A3CBD /* OSM_utilMD5.h */,
+				0F37FCA6131CECBB009A3CBD /* OSM_utilMD5.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0F12AE4F13646B4700A82CEE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0FB522D2134DA8590009B27F /* OSM_ScrollViewController.h */,
+				0FB522D3134DA8590009B27F /* OSM_ScrollViewController.m */,
+				0F21A8F5135590E8008D1C80 /* OSM_LoadingView.h */,
+				0F21A8F6135590E8008D1C80 /* OSM_LoadingView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0FC17701131D426000A79305 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				0FC17702131D426000A79305 /* JSON.h */,
+				0FC17703131D426000A79305 /* NSObject+SBJSON.h */,
+				0FC17704131D426000A79305 /* NSObject+SBJSON.m */,
+				0FC17705131D426000A79305 /* NSString+SBJSON.h */,
+				0FC17706131D426000A79305 /* NSString+SBJSON.m */,
+				0FC17707131D426000A79305 /* SBJSON.h */,
+				0FC17708131D426000A79305 /* SBJSON.m */,
+				0FC17709131D426000A79305 /* SBJsonBase.h */,
+				0FC1770A131D426000A79305 /* SBJsonBase.m */,
+				0FC1770B131D426000A79305 /* SBJsonParser.h */,
+				0FC1770C131D426000A79305 /* SBJsonParser.m */,
+				0FC1770D131D426000A79305 /* SBJsonWriter.h */,
+				0FC1770E131D426000A79305 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		0FC1774E131D435800A79305 /* extern */ = {
+			isa = PBXGroup;
+			children = (
+				0F37FCAE131CED57009A3CBD /* Reachability.h */,
+				0F37FCAF131CED57009A3CBD /* Reachability.m */,
+				0FC17701131D426000A79305 /* JSON */,
+			);
+			path = extern;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* OSMlib_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* OSMlib_Prefix.pch in Headers */,
+				0F37FC9F131CEC6A009A3CBD /* Global.h in Headers */,
+				0F37FCA3131CECAF009A3CBD /* OSM_Reachability.h in Headers */,
+				0F37FCA7131CECBB009A3CBD /* OSM_utilMD5.h in Headers */,
+				0F37FCB0131CED57009A3CBD /* Reachability.h in Headers */,
+				0F37FE2D131D0059009A3CBD /* GlobalConfig.h in Headers */,
+				0FC1770F131D426000A79305 /* JSON.h in Headers */,
+				0FC17710131D426000A79305 /* NSObject+SBJSON.h in Headers */,
+				0FC17712131D426000A79305 /* NSString+SBJSON.h in Headers */,
+				0FC17714131D426000A79305 /* SBJSON.h in Headers */,
+				0FC17716131D426000A79305 /* SBJsonBase.h in Headers */,
+				0FC17718131D426000A79305 /* SBJsonParser.h in Headers */,
+				0FC1771A131D426000A79305 /* SBJsonWriter.h in Headers */,
+				0FC1773A131D42C100A79305 /* OSM_utilURL.h in Headers */,
+				0FB522D4134DA8590009B27F /* OSM_ScrollViewController.h in Headers */,
+				0F21A8F7135590E8008D1C80 /* OSM_LoadingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* OSMlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "OSMlib" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSMlib;
+			productName = aycsLib;
+			productReference = D2AAC07E0554694100DB518D /* libOSMlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "OSMlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* aycsLib */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* OSMlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F37FCA0131CEC6A009A3CBD /* Global.m in Sources */,
+				0F37FCA4131CECAF009A3CBD /* OSM_Reachability.m in Sources */,
+				0F37FCA8131CECBB009A3CBD /* OSM_utilMD5.m in Sources */,
+				0F37FCB1131CED57009A3CBD /* Reachability.m in Sources */,
+				0F37FE2E131D0059009A3CBD /* GlobalConfig.m in Sources */,
+				0FC17711131D426000A79305 /* NSObject+SBJSON.m in Sources */,
+				0FC17713131D426000A79305 /* NSString+SBJSON.m in Sources */,
+				0FC17715131D426000A79305 /* SBJSON.m in Sources */,
+				0FC17717131D426000A79305 /* SBJsonBase.m in Sources */,
+				0FC17719131D426000A79305 /* SBJsonParser.m in Sources */,
+				0FC1771B131D426000A79305 /* SBJsonWriter.m in Sources */,
+				0FC1773B131D42C100A79305 /* OSM_utilURL.m in Sources */,
+				0FB522D5134DA8590009B27F /* OSM_ScrollViewController.m in Sources */,
+				0F21A8F8135590E8008D1C80 /* OSM_LoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/aycsLib.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OSMlib_Prefix.pch;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = OSMlib;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/aycsLib.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OSMlib_Prefix.pch;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = OSMlib;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "OSMlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "OSMlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
