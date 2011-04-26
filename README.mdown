@@ -33,6 +33,10 @@ or
 
 Apps with OSMlib
 ================
+[KidsBox][]
+[GutscheinRegister][]
 
-[http://itunes.apple.com/de/app/kidsbox/id372182265?mt=8][]
+[aycs.de]:http://aycs.de:
+[alexanderjaeger.de]:http://alexanderjaeger.de
+[KidsBox]:http://itunes.apple.com/de/app/kidsbox/id372182265?mt=8
 [GutscheinRegister]: http://itunes.apple.com/de/app/gutscheine-gutscheinregister/id422260104?mt=8&ls=1
