@@ -57,6 +57,8 @@
 		0F37FCAF131CED57009A3CBD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		0F37FE2B131D0059009A3CBD /* GlobalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.h; sourceTree = "<group>"; };
 		0F37FE2C131D0059009A3CBD /* GlobalConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConfig.m; sourceTree = "<group>"; };
+		0F60A060136830F10048A410 /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0F60A0611368319C0048A410 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0F834077131FE3840062FB59 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		0F83407B131FE3950062FB59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F83407F131FE39D0062FB59 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -114,6 +116,7 @@
 				0F83407B131FE3950062FB59 /* Foundation.framework */,
 				0F83407F131FE39D0062FB59 /* SystemConfiguration.framework */,
 				0F21A90B13559244008D1C80 /* UIKit.framework */,
+				0F60A05F136830F10048A410 /* Localizable.strings */,
 			);
 			name = aycsLib;
 			sourceTree = "<group>";
@@ -254,6 +257,8 @@
 				Japanese,
 				French,
 				German,
+				de,
+				en,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* aycsLib */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -288,6 +293,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F60A05F136830F10048A410 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F60A060136830F10048A410 /* de */,
+				0F60A0611368319C0048A410 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {

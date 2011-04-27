@@ -39,9 +39,8 @@
 		LoadingLabel.numberOfLines = 0;
 		LoadingLabel.lineBreakMode = UILineBreakModeWordWrap;
 		//StreetTitleLabel.font = [UIFont fontWithName:@"Arial" size:(16.0)];
-	LoadingLabel.font = [UIFont fontWithName:@"Arial-BoldMT" size:(16.0)];
-
-		LoadingLabel.text = [NSString stringWithFormat: @"%@",@"Lade Daten"];
+		LoadingLabel.font = [UIFont fontWithName:@"Arial-BoldMT" size:(16.0)];
+		LoadingLabel.text = [NSString stringWithFormat: @"%@",NSLocalizedString(@"LNG_LOADING", @"Lade Daten") ];
 		LoadingLabel.autoresizingMask = UIViewAutoresizingFlexibleHeight;
 		[LoadingView addSubview:LoadingLabel];
 		
