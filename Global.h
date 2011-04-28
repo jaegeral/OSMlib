@@ -32,8 +32,9 @@
 }
 +(BOOL)isIPAD;
 
-
-
 + (BOOL) validateEmail: (NSString *) candidate;
+
++ (NSString*)getMultiText:(NSString*)singeValuedString forNumber:(NSNumber*)Number;
+
 
 @end

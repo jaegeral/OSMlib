@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-//  Created by Alexander Jäger on 10.09.09.
+// Created by Alexander Jäger on 10.09.09.
 //
 #import <Foundation/Foundation.h>
 
 
 @interface OSM_utilURL : NSObject {
-
 }
+
 + (void)sendEmail:(NSString*)receiver;
 + (void)openWebPage:(NSString*)webPage;
 + (void)callPhoneNumber:(NSString*)PhoneNumber;

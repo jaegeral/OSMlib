@@ -39,5 +39,28 @@
 }
 
 
+/*
+ Switches between Multiple Value and Single Value strings.
+ Example:
+ [Global getMultiText:@"LNG_RATING" forNumber:1]; returns: Bewertung if LNG_RATING is set up in localized strings
+ [Global getMultiText:@"LNG_RATING" forNumber:2]; returns: Bewertungen if LNG_RATING_MULTI is set up in localized strings
+So you can set up every localized string as single value and multi value and use them
+ 
+ 
+ */
+
++ (NSString*)getMultiText:(NSString*)singeValuedString forNumber:(NSNumber*)Number{
+	if ([Number intValue]==1) {
+			return NSLocalizedString(singeValuedString, @"");
+	}else {
+			NSString *returnString = [[[NSString alloc]initWithFormat:@"%@_MULTI",singeValuedString]autorelease];
+			return NSLocalizedString(returnString, @"");
+	}
+
+
+}
+
+
+
 
 @end
