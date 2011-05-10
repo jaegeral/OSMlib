@@ -36,5 +36,7 @@
 
 + (NSString*)getMultiText:(NSString*)singeValuedString forNumber:(NSNumber*)Number;
 
++(void)appendGeneralUserInfosForMail:(NSMutableString**)Source;
+
 
 @end

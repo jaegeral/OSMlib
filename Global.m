@@ -15,7 +15,6 @@
 //  Created by Alexander Jäger on 09.12.10.
 //
 #import <UIKit/UIKit.h>
-
 #import "Global.h"
 #import "OSM_utilMD5.h"
 
@@ -59,6 +58,28 @@ So you can set up every localized string as single value and multi value and use
 
 
 }
+
+/*
+ Appends general App / User Details to an given String, for Example for an E-Mail
+ Example:
+ [Global appendGeneralUserInfosForMail:&yourText]; 
+ */
+
+
++(void)appendGeneralUserInfosForMail:(NSMutableString**)Source{
+	[*Source appendString:@"App Details"];
+	[*Source appendString:@"\nIdentifier: "];
+	[*Source appendString:[[[NSBundle mainBundle] infoDictionary] valueForKey:@"CFBundleIdentifier"]];
+	[*Source appendString:@"\nVersion: "];
+	[*Source appendString:[[[NSBundle mainBundle] infoDictionary] valueForKey:@"CFBundleVersion"]];
+	[*Source appendString:@"\nLanguage: "];
+	[*Source appendString:[[[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"] objectAtIndex:0]];
+	[*Source appendString:@"\nLocale: "];
+	[*Source appendString:[[NSLocale currentLocale] localeIdentifier]];
+	[*Source appendString:@"\niOS Version: "];
+	[*Source appendString:[[NSProcessInfo processInfo] operatingSystemVersionString]];
+}
+
 
 
 
