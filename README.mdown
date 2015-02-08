@@ -6,7 +6,7 @@ OSMlib is a collection of iOS Classes.
 Support:
 ========
 
-If you would like to ask any questions, feel free to mail at a.jaeger@aycs.de.
+If you would like to ask any questions, feel free to open an issue
 
 Adding OSMlib to your project
 =============================
@@ -27,8 +27,6 @@ Place the OSMlib in a permanent folder, so XCode can reference the files every t
 More
 ====
 
-[aycs.de][]
-or
 [alexanderjaeger.de][]
 
 Apps with OSMlib
@@ -36,7 +34,6 @@ Apps with OSMlib
 [KidsBox][]
 [GutscheinRegister][]
 
-[aycs.de]:http://aycs.de
 [alexanderjaeger.de]:http://alexanderjaeger.de
 [KidsBox]:http://itunes.apple.com/de/app/kidsbox/id372182265?mt=8
 [GutscheinRegister]: http://itunes.apple.com/de/app/gutscheine-gutscheinregister/id422260104?mt=8&ls=1
