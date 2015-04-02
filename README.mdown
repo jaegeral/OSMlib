@@ -1,3 +1,5 @@
+THIS REPO IS NOT MAINTAINED ANYMORE!
+
 OSMlib
 ======
 
